@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin-top: 0%;
+}
+.post-container {
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 100%;
+  background-color: #fffafa;
+  margin: 0px auto 0px auto;
+  width: 70%;
+}
+
+.date {
+  border-top: 30px;
+  color: #008080;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.post-content {
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+}

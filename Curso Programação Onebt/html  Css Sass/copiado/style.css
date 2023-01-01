@@ -1,0 +1,39 @@
+/* resertar tudo em primeiro lugar */
+body {
+  background-image: linear-gradient(to right, rgb(19, 204, 31), rgb(0, 0, 255));
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+h3 {
+  color: yellow;
+}
+
+li {
+  color: white;
+}
+
+.red {
+  color: red;
+}

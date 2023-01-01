@@ -1,0 +1,13 @@
+li < a {
+  color: rgb(238, 19, 19);
+}
+
+h1 + h4 {
+  border: 4px dashed;
+}
+a[href="color red"] {
+  color: red;
+}
+li:nth-of-type(2) {
+  color: blueviolet;
+}

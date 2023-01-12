@@ -5,7 +5,7 @@ function addPlayer() {
 
   // console.log({ position, name, number }); se colocarmos as ({}) ele vai considerar como um objeto, onde cada uma das chaves mostrara seu valor inserido.
 
-  const confirmation = confirm("Escalar " + name + " camo " + position + "?");
+  const confirmation = confirm("Escalar " + name + " como " + position + "?");
 
   if (confirmation) {
     const teamList = document.getElementById("teamList");

@@ -17,10 +17,9 @@ class Account {
   }
   //Esse metodo ele vai nos retornar se o valor é verdadeiro ou falso.
   // Estamos abstraindo ele, para que ele nao seja acessivel para fora
-  #authenticate(email, password){
-    return this.email === && this.#password === password
+  #authenticate(email, password) {
+    return this.email === email && this.#password === password;
   }
-
 }
 
 const user = {

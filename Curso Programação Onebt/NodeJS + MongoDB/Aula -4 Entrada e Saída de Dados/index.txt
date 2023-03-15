@@ -1,0 +1,22 @@
+```jsx
+function sayMyName(name) {
+  console.log(name);
+}
+sayMyName("Renan Amorim");
+```
+
+`npm init` 
+
+Para formatar uma data
+
+`npm install moment --save`
+
+```jsx
+const moment = require("moment");
+
+function sayMyName(name) {
+  console.log(name);
+  console.log(moment().format('HH:mm'));
+}
+sayMyName("Renan Amorim");
+```
